@@ -1,5 +1,7 @@
 # YouTube Speech-To-Text Module Using By [DerevoVoli.org](https://derevovoli.org)
 
+## The guide is for **Linux** users
+
 Requires installed `python3.10` interpeter and `ffmpeg` tools by the next command
 ```
 sudo apt-get install -y libav-tools

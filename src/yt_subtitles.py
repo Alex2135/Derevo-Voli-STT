@@ -43,6 +43,7 @@ def download_youtube_video_subtitles(url: str, with_auto_subtitles: bool = False
     filename_collector = FilenameCollectorPP(
         ext=ydl_opts["postprocessors"][1]["format"]
     )
+    # TODO: Save files in the results folder
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.add_post_processor(filename_collector)
         info = ydl.extract_info(url, download=False)
