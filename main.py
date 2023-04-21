@@ -1,4 +1,5 @@
 import argparse
+import textwrap
 
 from src.yt_subtitles import download_youtube_video
 from src.yt_subtitles import read_lrc

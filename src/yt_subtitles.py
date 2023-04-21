@@ -1,7 +1,5 @@
 import os
 import re
-import time
-import textwrap
 
 import youtube_dl
 
