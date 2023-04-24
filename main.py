@@ -18,7 +18,7 @@ def main(config: dict):
     mp3_file, lrc_file = download_youtube_video(url)
 
     text = read_lrc(lrc_file)
-    output_file_path = os.path(f"{lrc_file}.txt")
+    output_file_path = os.path.join(f"{lrc_file}.txt")
     with open(output_file_path, mode="w") as output_file:
         output_file.write(text)
         print("\n")
